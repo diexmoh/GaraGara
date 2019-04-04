@@ -97,9 +97,9 @@ public class Juego extends Canvas{
                 for(int i = 0; i < 5; i ++){
                     for(int j = 0; j < 8; j ++){
                         Graficos boss = new Alien(this, "imagenes/enemyUFO.png", 500, 30);
-                        Graficos boss1 = new Alien(this, "imagenes/enemyUFO.png", 200, 30);
+                        //Graficos boss1 = new Alien(this, "imagenes/enemyUFO.png", 200, 30);
                         lista_imagenes.add(boss);
-                        lista_imagenes.add(boss1);
+                        //lista_imagenes.add(boss1);
                         num_aliens ++; 
                     }
                 }
